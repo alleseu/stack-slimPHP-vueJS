@@ -1,0 +1,255 @@
+/*!
+ * CSS personalizado para Bootstrap 5.
+ * Copyright 2021 - Alejandro Alberto Sánchez Iturriaga.
+ */
+
+p {
+	font-family: 'Verdana';
+	font-size: small;
+}
+
+span,
+small {
+	font-family: 'Amaranth';
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Righteous';
+}
+
+/* Tamaño para resoluciones hasta un máximo de 576 pixeles de ancho. */
+@media (max-width: 576px) {
+
+	h1 {
+		font-size: 1.8em;
+	}
+}
+
+h5,
+h6 {
+	font-family: 'Russo One';
+}
+
+
+/* Tamaño para resoluciones hasta un máximo de 600 pixeles de alto. */
+@media (max-height: 600px) {
+
+	header {
+		padding-top: 2.5rem;
+		padding-bottom: 0rem;
+	}
+
+	main {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	section {
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+	}
+
+	footer {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		text-align: center;
+		color: #fff;
+	}
+}
+
+/* Tamaño para resoluciones hasta un máximo de 700 pixeles de alto. */
+@media (min-height: 601px) {
+
+	header {
+		padding-top: 3.5rem;
+		padding-bottom: 0rem;
+	}
+
+	main {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+
+	section {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	footer {
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+		text-align: center;
+		color: #fff;
+	}
+}
+
+/* Tamaño para resoluciones hasta un máximo de 800 pixeles de alto. */
+@media (min-height: 701px) {
+
+	header {
+		padding-top: 5.5rem;
+		padding-bottom: 0.5rem;
+	}
+
+	main {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+
+	section {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	footer {
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+		text-align: center;
+		color: #fff;
+	}
+}
+
+/* Tamaño para resoluciones hasta un máximo de 1024 pixeles de alto. */
+@media (min-height: 801px) {
+
+	header {
+		padding-top: 7rem;
+		padding-bottom: 2rem;
+	}
+
+	main {
+		padding-top: 6.5rem;
+		padding-bottom: 6.5rem;
+	}
+
+	section {
+		padding-top: 3.5rem;
+		padding-bottom: 3.5rem;
+	}
+
+	footer {
+		padding-top: 3.5rem;
+		padding-bottom: 3.5rem;
+		text-align: center;
+		color: #fff;
+	}
+}
+
+/* Tamaño para resoluciones hasta un máximo de 1080 pixeles de alto. */
+@media (min-height: 1025px) {
+
+	header {
+		padding-top: 7.5rem;
+		padding-bottom: 4rem;
+	}
+
+	main {
+		padding-top: 6.5rem;
+		padding-bottom: 6.5rem;
+	}
+
+	section {
+		padding-top: 3.5rem;
+		padding-bottom: 3.5rem;
+	}
+
+	footer {
+		padding-top: 3.5rem;
+		padding-bottom: 3.5rem;
+		text-align: center;
+		color: #fff;
+	}
+}
+
+/* Tamaño para resoluciones hasta un máximo de 1366 pixeles de alto. */
+@media (min-height: 1081px) {
+
+	header {
+		padding-top: 7.5rem;
+		padding-bottom: 5rem;
+	}
+
+	main {
+		padding-top: 10rem;
+		padding-bottom: 18rem;
+	}
+
+	section {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	footer {
+		padding-top: 3.5rem;
+		padding-bottom: 3.5rem;
+		text-align: center;
+		color: #fff;
+	}
+}
+
+/* Tamaño para resoluciones hasta un máximo de 1920 pixeles de alto. */
+@media (min-height: 1367px) {
+
+	header {
+		padding-top: 10rem;
+		padding-bottom: 5rem;
+	}
+
+	main {
+		padding-top: 18rem;
+		padding-bottom: 25rem;
+	}
+
+	section {
+		padding-top: 6.5rem;
+		padding-bottom: 8rem;
+	}
+
+	footer {
+		padding-top: 3.5rem;
+		padding-bottom: 3.5rem;
+		text-align: center;
+		color: #fff;
+	}
+}
+
+/* Botón de flecha para desplazarse hacia arriba de la página. */
+.scroll-up {
+	background-repeat: no-repeat;
+	font-size: 40px;
+	color: black;
+	opacity: 0.3;
+	cursor: pointer;
+	position: fixed;
+	z-index: 1;
+	bottom: 10px;
+	right: 10px;
+}
+
+/* Estilo para la configuración del spinner de carga antes de mostrar el contenido de las páginas. */
+.bg-spinner {
+	position: fixed;
+	z-index: 10000;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background-color: #ffffff;
+	top: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg-response {
+	position: fixed;
+	z-index: 10000;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background-color: #2a2a2ac2;
+	top: 0;
+	align-items: center;
+	justify-content: center;
+}
